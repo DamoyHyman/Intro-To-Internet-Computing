@@ -1,0 +1,46 @@
+h2
+{
+    text-align: justify;
+}
+
+h4
+{
+    font-family: cursive;
+}
+            
+figure
+{
+    text-align: center;
+}
+
+header
+{
+    border: 2px solid blue;
+    padding: 1em;
+    color: white;
+    background-color: red;
+    clear: left;
+    text-align: center;
+}
+
+body
+{
+    background-color: dodgerblue;
+    border-style:inset;
+    font-family: Times New Roman;
+    padding: 10px;
+}
+
+.container
+{
+     border: 2px solid yellow;
+     background-color: white;
+     border-style:ridge;
+     border-radius: 15px
+     padding: 10px;
+}
+            
+.indent
+{
+    text-indent: 40px;
+}

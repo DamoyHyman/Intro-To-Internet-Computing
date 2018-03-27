@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Home Work 5</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+    </head>
+    
+    <body class="black">
+        
+      <div class="grid"> 
+          
+          <header><h3>PHP File Management!</h3></header>
+          <br>
+         
+          
+          <!-- Row 1 Read file -->
+    <div class="row">
+        <div class="col12">
+            <header>Read File Section</header>
+            <p class="center">You can read From A file listed below:</p>
+            <ul class="center">
+            <li class="center">lostBoys.txt</li>
+            </ul>
+        
+            <form class="center" action="Readfile.php" method="post">
+           <input type="text" name="filename" placeholder="Type the exact name of a file listed above" size="33">
+           <input type="submit" value="Read">
+            </form>
+        </div>
+    </div>
+      
+          <!-- Row 2 Append file -->
+    <div class="row">
+        <div class="col12">
+        <header>Append A File Section</header>
+        <form class="center" action="appendfile.php" method="post">
+            First name:<br>
+            <input type="text" name="fname" placeholder="First name">
+            <br>
+            Last name:<br>
+            <input type="text" name="lname"  placeholder="Last name">
+            <br><br>
+            <input type="submit" value="Append">
+        </form>
+              </div>
+        </div>
+          
+           <!-- Row 3 Overwrite A file -->
+    <div class="row">
+        <div class="col12">
+        <header>Overwrite A File Section</header>
+        <form class="center" action="overwrite.php" method="post">
+            First name:<br>
+            <input type="text" name="fname" placeholder="First name">
+            <br>
+            Last name:<br>
+            <input type="text" name="lname"  placeholder="Last name">
+            <br><br>
+            <input type="submit" value="Overwrite">
+        </form>     
+              </div>
+        </div>
+          
+          <!-- Row 4 Write To A file -->
+    <div class="row">
+        <div class="col12">
+        <header>Write To A File Section</header>
+        <form class="center" action="write.php" method="post">
+            First name:<br>
+            <input type="text" name="fname" placeholder="First name">
+            <br>
+            Last name:<br>
+            <input type="text" name="lname"  placeholder="Last name">
+            <br>
+            File name:<br>
+            <input type="text" name="filename"  placeholder="File name">
+            <br><br>
+            <input type="submit" value="Write">
+        </form>     
+              </div>
+    </div>
+          
+          <!-- End of grid div tag-->
+        </div>
+    
+    </body>
+</html>

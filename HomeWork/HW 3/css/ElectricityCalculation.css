@@ -1,0 +1,55 @@
+body
+{
+    background-color: dodgerblue;
+    border-style:inset;
+    font-family: Times New Roman;
+    padding: 20px;
+}
+div 
+{
+  background-color: white;
+  border-style:dotted;
+  border-radius: 25px
+  padding: 10px;
+}
+
+figure
+{
+    text-align: center;
+}
+h1
+{
+    text-align: left;
+    font-family: serif;
+    text-decoration-style: wavy;
+    color: red; 
+}
+
+h2
+{
+    text-align: center;
+    text-decoration:underline;
+    color: darkgreen;
+}
+p
+{  
+    
+}
+
+table
+{
+  background-color: darkgreen;
+  color: white;
+  border-radius: 25px;
+  text-align: center;
+}
+
+table tr td 
+{
+  padding: 10px;
+}
+
+table tr th 
+{
+  padding-left: 8px;
+}

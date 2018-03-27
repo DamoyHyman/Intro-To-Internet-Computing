@@ -1,0 +1,17 @@
+body 
+{
+	background: #000 url(images/background.png) top center no-repeat;
+	color: #FFF;
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 1.5em;
+}
+
+.banner
+{
+  width: 1000px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;   
+}
+

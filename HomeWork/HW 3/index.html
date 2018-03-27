@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+     <head>
+    <title>Mass Conversion</title>
+    <link rel="stylesheet" href ="css/jquery.mobile-1.3.1.min.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <script type ='text/javascript' src="scripts/massconvertion.js"></script>
+    <script src="scripts/jquery-1.8.3.min.js"></script>
+    <script src="scripts/chromeFileProtocolFix.js"></script>
+    <script src="scripts/jquery.mobile-1.3.1.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body onload="IP();">
+        <div data-role="page">
+            <div data-role="navbar">
+            <ul>
+            <li><a href="index.html" class="ui-btn-active ui-state-persist">Mass Conversion Section</a></li>
+                </ul>
+            </div>
+            
+            
+            
+            <div data-role="content">
+                <label>Enter The Value The Mass Value In Grams Below:</label>
+                <input type="number" id='massValue' min='0' placeholder="Enter Grams" onfocus="reset();">
+                <br>
+                    <div class="row">
+                        <div class="col6">
+                        <button id="G-Kg" onclick="Kg();">Kilograms</button>
+                        </div>
+                        <div class="col6">
+                        <button id="G-Mg" onclick="mg();">Milligrams</button>
+                        </div>
+                     </div>
+                
+                    <div class="row">
+                        <div class="col6">
+                        <button id ="G-P" onclick="lbs();">Pounds</button>
+                        </div>
+                        <div class="col6">
+                        <button id="G-oz" onclick="oz();">oz</button>
+                        </div>
+                     </div>
+                <br>
+                
+                <h4>Result:</h4>
+                <p id="result"><b></b></p>
+                </div>
+          <br>
+            <div data-role=footer class="center">
+            <small>Unit Conversion App.</small>
+            </div>
+            
+            <div data-role=footer>
+            <small id="IP"></small>
+            </div>
+            
+        </div>
+    </body>
+    
+</html>
